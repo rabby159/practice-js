@@ -10,5 +10,5 @@ function getSomeOfArray(numbers){
     return sum;
 }
 
-const numbers = [21, 24, 65, 82, 10, 6];
+const numbers = [21, 24, 65, 82, 10, 6, 9, 7, 13];
 getSomeOfArray(numbers);
