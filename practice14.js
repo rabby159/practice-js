@@ -7,9 +7,13 @@ function maxInArray(numbers){
         const element = numbers[index];
         console.log(index, element);
 
-        if(element > largest){
-            largest = element;
-        }
+        // if(element > largest){ //maxnumber
+        //     largest = element;
+        // }
+
+        // if(element < largest){ //minnumber
+        //     largest = element;
+        // }
     }
     return largest;
 }
@@ -17,4 +21,5 @@ function maxInArray(numbers){
 const heights = [167, 195, 132, 165, 182];
 const maxHeights =  maxInArray(heights);
 
-console.log("Max Height Person is: ",maxHeights);
+// console.log("Max Height Person is: ",maxHeights);
+// console.log("Min Height Person is: ",maxHeights);
