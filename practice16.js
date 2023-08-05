@@ -23,3 +23,8 @@ console.log(typeof add);
 console.log(friends.includes(25));
 console.log(friends.includes(26));
 
+
+// concat
+const newFriendAge = [17, 26, 51, 71];
+const allFriends = newFriendAge.concat(friends);
+console.log(allFriends);
