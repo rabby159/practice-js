@@ -1,10 +1,10 @@
 // finding feet to inches
 
 function feetToInch(value){
-    const calculation = value * 12; //1 feet = 12inch
+           const calculation = value * 12; //1 feet = 12inch
 
-    return calculation;
+   return calculation;
 };
 
-const feetValue = feetToInch(35);
+             const feetValue = feetToInch(35);
 console.log("Inches value is: ",feetValue);
